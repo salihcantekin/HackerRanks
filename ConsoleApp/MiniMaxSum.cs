@@ -9,11 +9,11 @@ namespace ConsoleApp
     {
         //https://www.hackerrank.com/challenges/mini-max-sum/problem
 
-        static void Main(string[] args)
-        {
-            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
-            miniMaxSum(arr);
-        }
+        //static void Main(string[] args)
+        //{
+        //    int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+        //    miniMaxSum(arr);
+        //}
 
 
         static void miniMaxSum(int[] arr)

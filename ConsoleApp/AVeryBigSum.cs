@@ -9,20 +9,20 @@ namespace ConsoleApp
     {
         // https://www.hackerrank.com/challenges/a-very-big-sum/problem
 
-        static void Main(string[] args)
-        {
-            TextWriter textWriter = new StreamWriter(Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //static void Main(string[] args)
+        //{
+        //    TextWriter textWriter = new StreamWriter(Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            int arCount = Convert.ToInt32(Console.ReadLine());
+        //    int arCount = Convert.ToInt32(Console.ReadLine());
 
-            long[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt64(arTemp));
-            long result = aVeryBigSum(ar);
+        //    long[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt64(arTemp));
+        //    long result = aVeryBigSum(ar);
 
-            textWriter.WriteLine(result);
+        //    textWriter.WriteLine(result);
 
-            textWriter.Flush();
-            textWriter.Close();
-        }
+        //    textWriter.Flush();
+        //    textWriter.Close();
+        //}
 
 
         static long aVeryBigSum(long[] ar)

@@ -13,10 +13,10 @@ namespace ConsoleApp
             return n == 0 ? 0 : n == 1 ? 1 : Fibonacci(n - 2) + Fibonacci(n - 1);
         }
 
-        static void Main(String[] args)
-        {
-            int n = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(Fibonacci(n));
-        }
+        //static void Main(String[] args)
+        //{
+        //    int n = Convert.ToInt32(Console.ReadLine());
+        //    Console.WriteLine(Fibonacci(n));
+        //}
     }
 }

@@ -29,18 +29,18 @@ namespace ConsoleApp
             return hour.ToString("D2") + s.Substring(2, s.Length - 4);
         }
 
-        static void Main(string[] args)
-        {
-            TextWriter tw = new StreamWriter(Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //static void Main(string[] args)
+        //{
+        //    TextWriter tw = new StreamWriter(Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            string s = Console.ReadLine();
+        //    string s = Console.ReadLine();
 
-            string result = timeConversion(s);
+        //    string result = timeConversion(s);
 
-            tw.WriteLine(result);
+        //    tw.WriteLine(result);
 
-            tw.Flush();
-            tw.Close();
-        }
+        //    tw.Flush();
+        //    tw.Close();
+        //}
     }
 }

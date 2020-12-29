@@ -49,18 +49,18 @@ namespace ConsoleApp
             return max - 1 == min ? "YES" : "NO";
         }
 
-        static void Main(string[] args)
-        {
-            TextWriter textWriter = new StreamWriter(Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //static void Main(string[] args)
+        //{
+        //    TextWriter textWriter = new StreamWriter(Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            string s = Console.ReadLine();
+        //    string s = Console.ReadLine();
 
-            string result = isValid(s);
+        //    string result = isValid(s);
 
-            textWriter.WriteLine(result);
+        //    textWriter.WriteLine(result);
 
-            textWriter.Flush();
-            textWriter.Close();
-        }
+        //    textWriter.Flush();
+        //    textWriter.Close();
+        //}
     }
 }

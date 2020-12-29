@@ -10,26 +10,26 @@ namespace ConsoleApp
     {
         // https://www.hackerrank.com/challenges/diagonal-difference/problem
 
-        public static void Main(string[] args)
-        {
-            TextWriter textWriter = new StreamWriter(Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //public static void Main(string[] args)
+        //{
+        //    TextWriter textWriter = new StreamWriter(Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            int n = Convert.ToInt32(Console.ReadLine().Trim());
+        //    int n = Convert.ToInt32(Console.ReadLine().Trim());
 
-            List<List<int>> arr = new List<List<int>>();
+        //    List<List<int>> arr = new List<List<int>>();
 
-            for (int i = 0; i < n; i++)
-            {
-                arr.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList());
-            }
+        //    for (int i = 0; i < n; i++)
+        //    {
+        //        arr.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList());
+        //    }
 
-            int result = diagonalDifference(arr);
+        //    int result = diagonalDifference(arr);
 
-            textWriter.WriteLine(result);
+        //    textWriter.WriteLine(result);
 
-            textWriter.Flush();
-            textWriter.Close();
-        }
+        //    textWriter.Flush();
+        //    textWriter.Close();
+        //}
 
         public static int diagonalDifference(List<List<int>> arr)
         {
